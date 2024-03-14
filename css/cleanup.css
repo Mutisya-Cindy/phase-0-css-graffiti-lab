@@ -1,1 +1,20 @@
-/* write your override styles here */
+background: black url(../images/sketch.jpg) no-repeat center;
+background-size: cover;
+
+body {
+margin: 0;
+}
+user agent stylesheet
+body {
+display: block;
+margin: 8px;
+}
+injected stylesheet
+:host, :root {
+--rem: 16;
+}
+html {
+font-family: sans-serif;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
